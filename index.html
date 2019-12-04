@@ -41,9 +41,91 @@
     </header>
 
     <main>
-      <section class="paddingZero">
-        <div class="bannerWrapper">
-          <h1 class="text-center" style="color: #fff;padding: 10rem 0;">Banner section</h1>
+      <section class="bannerWrapper">
+        <div class="bannerWrapperContent">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7 verticalCenter">
+                <div class="bannerLeft">
+                  <h1>We make your <br>
+                      Transactions in Africa & <br>
+                      the World Faster & Flexible.</h1>
+                  <p>We provide a perfect marketplace for all transactions involving 
+                      cryptocurrencies. Fast transaction time High level of security 
+                      24/7 fast and responsive customer care.</p>
+                  <div class="bitIcons">
+                    <img src="assets/images/bitcoin.png">
+                    <img src="assets/images/litecoin.png">
+                    <img src="assets/images/Dogecoin.png">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="bannerRight converterForm">
+                  <div class="verticalStrip"></div>
+                  <div class="formTabs">
+                    <ul class="nav nav-tabs clearfix">
+                      <li><a class="active" data-toggle="tab" href="#tab1">Send</a></li>
+                      <li><a data-toggle="tab" href="#tab2">Receive</a></li>
+                    </ul>
+                    <div class="tab-content">
+                      <div id="tab1" class="tab-pane active">
+                          <form action="" method="post" id="send-form">
+                            <div class="form-group">
+                              <input type="tel" class="form-control custom-form-control" value="1234">
+                              <div class="countryCodeSelect"> 
+                                  <span class="select-container">
+                                    <select id="countryCodeSelect" class="form-control selectpicker">
+                                      <option value="1" selected>01</option>
+                                      <option value="2">02</option>
+                                      <option value="3">03</option>
+                                      <option value="4">04</option>
+                                    </select>
+                                  </span>
+                                  <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <input type="tel" class="form-control custom-form-control" value="4567">
+                              <div class="sendButton">
+                                <button class="btn btn-primary">send money</button>
+                              </div>
+                            </div>
+
+                            <p>Quick Converter</p>
+                          </form>
+                      </div>
+                      <div id="tab2" class="tab-pane">
+                        <form action="" method="post" id="receive-form">
+                          <div class="form-group">
+                            <input type="tel" class="form-control custom-form-control" value="1222">
+                            <div class="countryCodeSelect"> 
+                                <span class="select-container">
+                                  <select id="countryCodeSelect" class="form-control selectpicker">
+                                    <option value="1" selected>01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                  </select>
+                                </span>
+                                <div class="clearfix"></div>
+                              </div>
+                          </div>
+                          <div class="form-group">
+                            <input type="tel" class="form-control custom-form-control" value="5555">
+                            <div class="sendButton">
+                              <button class="btn btn-primary">Receive money</button>
+                            </div>
+                          </div>
+
+                          <p>Quick Converter</p>
+                        </form>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           
         </div>
       </section>
@@ -371,7 +453,7 @@
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <!-- <script src="assets/js/common_scripts.js"></script> -->
     <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
-    
+    <script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
     <script type="text/javascript" src="assets/js/commonscripts.js"></script>
     
   </body>
