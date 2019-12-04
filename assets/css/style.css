@@ -98,15 +98,15 @@ body { font-family: 'nowRegular'; color: #556179;}
 
 .customRadio input { position: absolute; opacity: 0; }
 
-.customRadio { position: relative; cursor: pointer; border: 2px solid #eee; padding: 10px; width: 100%; border-radius: 8px; text-align: center; margin-bottom: 1rem;}
+.customRadio { position: relative; cursor: pointer; border: 1px solid #707070; padding:15px 10px; width: 100%; border-radius: 0.25rem; text-align: center; margin: 1.5rem 0 1rem 0; height: 55px;}
 
 .customRadio span { padding-left: 15px;}
 
-.customRadioBtn{ display: block; position: absolute;border: 2px solid rgba(0,0,0,0.3); border-radius: 100%; height:22px; width: 22px; top: 10px; left: calc(50% - 55px); transition: border .25s linear;-webkit-transition: border .25s linear; z-index: -1;}
+.customRadioBtn{ display: block; position: absolute;border: 1px solid #556179; border-radius: 100%; height:26px; width: 26px; top: 12px; left: 20px; transition: border .25s linear;-webkit-transition: border .25s linear; z-index: -1;}
 
-.customRadioBtn:before{ display: block; position: absolute; content: ''; border-radius: 100%; height: 10px; width: 10px; top: 4px; left: 4px; margin: auto;  transition: background .25s linear; -webkit-transition: background .25s linear; }
+.customRadioBtn:before{ display: block; position: absolute; content: ''; border-radius: 100%; height: 13px; width: 13px; top: 5px; left: 5px; margin: auto;  transition: background .25s linear; -webkit-transition: background .25s linear; }
 
-.customRadio input:checked ~ .customRadioBtn::before { background:#35464f; }
+.customRadio input:checked ~ .customRadioBtn::before { background:#36599b; }
 
 .propertyfor input:checked ~ .customRadioBtn{ border: 2px solid #35464f; }
 
@@ -163,7 +163,7 @@ header { padding: 20px 40px; background: var(--main-bg-color);}
 
 .converterForm ul.nav-tabs li a { color: #fff;  padding-bottom: 10px; display: block;}
 
-.converterForm ul li a.active{ display: block; border-bottom: 3px solid #1eaaf2;}
+.converterForm ul li.nav-tabs a.active{ display: block; border-bottom: 3px solid #1eaaf2;}
 
 .converterForm .tab-content { padding: 2rem 0;}
 
@@ -330,27 +330,31 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
 
 /* Login & Register */
 
-.loginWarapper .loginLeft img { width: 300px; padding: 25px;}
+.loginWarapper .loginLeft img { width: 275px; padding: 25px;}
 
 .loginWarapper a { color: var(--btn-bg-light-blue);}
 
-.loginWarapper .loginLeft { background: url(../images/login-bg.jpg) no-repeat; background-size: cover ; height: 100vh;}
+.loginWarapper .loginLeft,.loginWarapper .loginLeft.signupLeft { background: url(../images/login-bg.jpg) no-repeat; background-size: 100% 100%; height: 100vh;}
 
-.loginWarapper .loginLeft.signupLeft { background: url(../images/signup-bg.jpg) no-repeat;}
+.loginWarapper .loginLeft.signupLeft { background: url(../images/signup-bg.jpg) no-repeat; background-size: 100% 100%;}
 
-.loginRight { width: 40%; margin: 0 auto;}
+.loginWarapper p { font-size: 18px; color: #556179; font-family: 'nowMEdium';}
+
+.loginRight { width: 45%; margin: 0 auto;}
 
 .loginRight button.btn { background: var(--main-bg-color); color: #fff; width: 100%; padding: 15px 0}
 
-.loginWarapper .custom-form-control { height: 55px; border: 2px solid #eee;}
+.loginWarapper .custom-form-control { height: 55px; border: 1px solid #707070;}
 
 .loginWarapper p.text-right { margin-right: -10rem;}
 
 .loginWarapper form { padding-top:30px ;}
 
-.loginRight p.fpText { margin: 1.5rem 0;}
+.loginRight p.fpText { margin: 1.5rem 0; font-size: 16px;}
 
 .loginRight .closeIcon { position: fixed; right: 30px; top: 30px;}
+
+.loginRight .closeIcon img { width: 22px;}
 
 .loginRight .closeIcon a { color: #000; font-size: 20px; font-family: 'nowBold';}
 
@@ -630,6 +634,8 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
        -ms-user-select: none;
            user-select: none;
  }
+
+ .bootstrap-select .dropdown-item.active, .dropdown-item:active { background-color: var(--btn-bg-light-blue); }
  .bootstrap-select .dropdown-menu li a.opt {
    position: relative;
    padding-left: 2.25em;
@@ -787,4 +793,15 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
    width: 100%;
    float: none;
  }
- /*# sourceMappingURL=bootstrap-select.css.map */
+ 
+ /* Register country code */
+ .registerCountryCodeSelect .bootstrap-select > .dropdown-toggle { border: 1px solid #707070; height: 55px; color: #556179; padding: 0.5rem 1.5rem;}
+
+ .registerCountryCodeSelect .bootstrap-select .dropdown-toggle .filter-option-inner-inner, .registerCountryCodeSelect .bootstrap-select > .dropdown-toggle:after{ color: #556179;}
+
+ .registerCountryCodeSelect .bootstrap-select > .dropdown-toggle:after { font-size: 20px;}
+
+ .loginWarapper .registerCountryCodeSelect a { color: #556179; }
+
+ .loginWarapper .registerCountryCodeSelect li.active a { color: #fff;}
+
