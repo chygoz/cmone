@@ -163,7 +163,7 @@ header { padding: 20px 40px; background: var(--main-bg-color);}
 
 .converterForm ul.nav-tabs li a { color: #fff;  padding-bottom: 10px; display: block;}
 
-.converterForm ul li.nav-tabs a.active{ display: block; border-bottom: 3px solid #1eaaf2;}
+.converterForm ul.nav-tabs li a.active{ display: block; border-bottom: 3px solid #1eaaf2;}
 
 .converterForm .tab-content { padding: 2rem 0;}
 
