@@ -875,3 +875,90 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
 
  .faqWrapper .searchFilter:before { position: absolute; content: '\f002'; font-family: 'FontAwesome'; top: 10px; right: 15px; font-size:20px; color: #495057;}
 
+ /* buy sell styles */
+
+ .buySellWrapperContent tr td, .buySellWrapperContent .table thead th { border: 0;  padding: 2.2rem;  font-size: 18px;}
+
+ .buySellWrapperContent .table thead th { color: #03a9f5; font-family: 'nowBold'; background: #fff;}
+
+ .buySellWrapperContent tr td { font-family: 'nowBold'; font-size: 16px; } 
+
+ section.buySellWrapperContent { padding-top:0px ;}
+
+ section.buySellWrapperContent .no-more-tables { margin-top: -100px; box-shadow: 2px 2px 5px #ccc;}
+
+ .buySellWrapperContent .table-striped tbody tr { background: #fff;  color: #556179;}
+
+ .buySellWrapperContent .table-striped tbody tr:hover, .buySellWrapperContent .table-striped tbody tr:hover .bgLightGray { background: #2d426a !important; color: #fff;} 
+
+ .buySellWrapperContent .table-striped tbody tr:nth-of-type(odd) { background: #F7F8FA;}
+
+ .buySellWrapperContent .table-striped tbody tr:nth-of-type(odd) .bgLightGray{ background: #FAFBFD }
+
+ .buySellWrapperContent .table thead th.bgLightGray, .buySellWrapperContent .bgLightGray { background: #F1F5F8;}
+
+ .buySellWrapper .innerBannerWrapper p { width: 50%;}
+
+ .buySellWrapper { height: 500px;}
+
+ .buySellWrapper input.form-control { height: 55px;}
+
+ .buySellWrapper .bootstrap-select > .dropdown-toggle { background: #fff !important; height: 55px;}
+
+ .buySellWrapper .bootstrap-select .dropdown-toggle .filter-option-inner-inner{ color: #9DA5B2;}
+
+ .buySellWrapper .bootstrap-select > .dropdown-toggle:after{ color: #566079; font-size: 22px;}
+
+
+ @media (max-width: 576px) {
+
+.no-more-tables table, 
+.no-more-tables thead, 
+.no-more-tables tbody, 
+.no-more-tables th, 
+.no-more-tables td, 
+.no-more-tables tr { 
+display: block; 
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+
+.no-more-tables thead tr { 
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+
+.no-more-tables table{ border:0px;} 
+
+.no-more-tables tr { border: 1px solid #ccc; margin-bottom:7px; clear:both;}
+
+.no-more-tables td { 
+/* Behave  like a "row" */
+border: none;
+border-bottom: 1px solid #eee; 
+position: relative;
+white-space: normal;
+text-align:left;padding: 4px 10px;padding-left:50% !important;  word-break: break-all; margin-bottom:0px;
+}
+
+.no-more-tables td.no-results-msg{ padding-left:0px !important; text-align:center;}
+
+.no-more-tables td:before { 
+/* Now like a table header */
+position: absolute;
+/* Top/left values mimic padding */
+top: 6px;
+left: 6px;
+padding:10px 15px 10px 0px;
+
+text-align:left;
+   word-break: break-all; width:50%; line-height: normal;
+}
+
+/*
+Label the data
+*/
+.no-more-tables td:before { content: attr(data-title); }
+
+ }
