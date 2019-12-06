@@ -227,7 +227,7 @@ section.bgLightGray { background: #eff3f8;}
 
 .secureTransactionInfo { position: absolute; top: calc(100% - 65px); right: 0;}
 
-.secureTransactionInfo img { width: 100px;}
+.secureTransactionInfo img { width: 100px; opacity: 0.4;}
 
 .secureTransactionInfo h6 { text-transform: uppercase; font-family:nowBold ; margin-top: -15px; }
 
@@ -264,7 +264,7 @@ section.bgLightGray { background: #eff3f8;}
 
 .paymentSolutionsInfo ul.content li:before { position: absolute; content:'-'; left: 0; top:-2px; }
 
-.paymentsSolutionsWrapper .owl-carousel .owl-item img { width: 200px; height: 200px; float: right;}
+.paymentsSolutionsWrapper .owl-carousel .owl-item img { width: 400px; margin-top:-40px; }
 
 .paymentSolutionsInfo .item h2, .paymentSolutionsInfo .item h5 { font-size: 26px; color: #556179; font-family: 'nowMedium'; padding-left: 50px;}
 
@@ -278,7 +278,7 @@ section.bgLightGray { background: #eff3f8;}
 
 .paymentsSolutionsWrapper .owl-stage-outer{ padding: 2.5rem 0;}
 
-.map .bgMap { width: 100%; height: 400px; background: url(../images/map.svg) no-repeat top center; filter: brightness(85%); background-size: cover;}
+.map .bgMap { width: 100%; height: 550px; background: url(../images/map.svg) no-repeat top center; filter: brightness(85%); background-size: cover;}
 
 .agencyContent { background: var(--main-bg-color); color: var(--text-color-white); padding: 5rem;}
 
