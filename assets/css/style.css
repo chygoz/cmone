@@ -909,6 +909,37 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
 
  .buySellWrapper .bootstrap-select > .dropdown-toggle:after{ color: #566079; font-size: 22px;}
 
+ /* Charges & Fess */
+
+ .chargesFeesWrapper .table thead th { background: #2C426B; padding: 1.5rem; font-size: 17px;}
+
+ .chargesFeesWrapper tr.tableMainRow,.chargesFeesWrapper .table-striped tbody tr:hover { background: none !important; color: #556179;}
+
+ .chargesFeesWrapper tr.tableMainRow td { padding: 0rem;}
+
+ .chargesFeesWrapper .card-header { padding: 10px 15px;}
+
+ .chargesFeesWrapper .faqSection .card-header .btn-link { font-size: 15px; color: #fff;}
+
+ .chargesFeesWrapper .faqSection .card-header{ background: #556179; border-radius: 0;}
+
+ .chargesFeesWrapper .faqSection .card { background:none; box-shadow: none; color: #fff;}
+
+ .chargesFeesWrapper .card-body { padding: 1.5rem 0.2rem; background: #fff; box-shadow: 2px 2px 5px #aaa;}
+
+ .chargesFeesWrapper tr.tableMainRow td tr td { padding: 1.2rem 1.5rem;}
+
+ .chargesFeesWrapper .table-striped tbody tr td tr, .chargesFeesWrapper .table-striped tbody tr td tr:hover { background: #F7F8FA !important;} 
+
+ .chargesFeesWrapper .table-striped tbody tr td tr:nth-of-type(even), .chargesFeesWrapper .table-striped tbody tr td tr:nth-of-type(even):hover { background: #fff !important;}
+
+ .chargesFeesWrapper .faqSection { margin-top: -120px;}
+
+ .chargesFeesWrapper .table-striped tbody tr td tr td { font-family: 'nowMedium'; font-size: 14px;}
+
+ .chargesFeesWrapper .table-striped tbody tr td tr td span { color: #19E200;}
+
+ .chargesFeesWrapper .faqSection .card i { color: #fff;}
 
  @media (max-width: 576px) {
 
