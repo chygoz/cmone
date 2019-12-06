@@ -352,6 +352,10 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
 
 /* Login & Register */
 
+.optionalTxt { position: absolute; top: 15px; right: 20px; opacity: 0.6;}
+
+.loginWarapper .form-group { position: relative;}
+
 .loginWarapper .loginLeft img { width: 275px; padding: 25px;}
 
 .loginWarapper a { color: var(--btn-bg-light-blue);}
