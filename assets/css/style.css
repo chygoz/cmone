@@ -945,17 +945,17 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
 
  .chargesFeesWrapper .faqSection .card i { color: #fff;}
 
- .mobileNavIcon, .topMenu span.closeIcon { display: none;}
+ .mobileNavIcon, .topMenu span.closeIcon, .mobileLogin, .sm-down-show { display: none;}
 
  @media (max-width: 576px) {
 
-header { padding: 14px 15px; z-index: 999; height: 70px; position: fixed; top: 0; width: 100%;}
+header { padding: 14px 15px; border-bottom: 2px solid #007bff; z-index: 999; height: 70px; position: fixed; top: 0; width: 100%;}
 
-main { margin-top: 70px; border-top: 2px solid #007bff;}
+main { margin-top: 70px; }
 
 p { font-size: 14px !important; }
 
-.mobileNavIcon, .topMenu span.closeIcon { display: block;}
+.mobileNavIcon, .topMenu span.closeIcon, .mobileLogin, .sm-down-show { display: block;}
 
 .sm-down-hide { display: none !important;}
 
@@ -967,9 +967,9 @@ p { font-size: 14px !important; }
 
 .mobileNavIcon span { width: 30px; height: 2px; display: block; margin-bottom: 6px; background: #fff;}
 
-.logo { margin-left: 60px;}
+.logo { margin-left: 40px;}
 
-.logo img { margin: 0 auto; width: 125px; display: block;}
+.logo img { margin: 5px auto; width: 110px; display: block;}
 
 .topMenu { transition: all 0.6s; position: fixed; left: -1px; top: 0; width: 75%; z-index: 999999; height: 100%; background: #fff; transform: translateX(-100%);}
 
@@ -979,7 +979,7 @@ p { font-size: 14px !important; }
 
 .topMenu ul li { display: block; width: 100%;}
 
-.topMenu ul li a { color: #556179; padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.05);}
+.topMenu ul li a { co5r: #556179; padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.05);}
 
 .topMenu ul li:first-child a { border-top: 1px solid rgba(0,0,0,0.05);}
 
@@ -1000,6 +1000,14 @@ p { font-size: 14px !important; }
 .topMenu ul li.dropdownMenu:hover .dropdown-menu.show { display: block; }
 
 .topMenu ul li.m-login { position: fixed; transform: translateX(100%);}
+
+.mobileLogin { float: right; margin-top: 10px;}
+
+.mobileLogin ul li { display: inline; font-size: 11px;}
+
+.mobileLogin ul li a { color: #fff; border: 1px solid #fff; padding: 5px 10px; display: inline-block; border-radius: 5px;}
+
+.mobileLogin ul li a.getStarted { background: var(--btn-bg-green); border-color: var(--btn-bg-green);}
 
 .bannerWrapper .bannerLeft p { padding-right: 0; text-align: center; font-size: 14px;}
 
