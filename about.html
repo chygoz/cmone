@@ -16,25 +16,38 @@
   </head>
   <body>
     <header>
+      <div class="mobileNavIcon">
+          <button id="toggleMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
       <div class="logo">
-        <a href="#"><img src="assets/images/logo-white.png"></a>
+        <a href="index.html"><img class="img-fluid" src="assets/images/logo-white.png"></a>
       </div>
       <div class="topMenu">
         <ul class="marginZero">
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li  class="dropdownMenu"><a href="javascript:void(0)" data-toggle="dropdown">About<i class="fa fa-angle-down" aria-hidden="true"></i></a>
             <ul class="dropdown-menu marginZero">
-              <li><a href="#">How It Works</a></li>
-              <li><a href="#">CreativMoney</a></li>
-              <li><a href="#">Fees/Charges</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="about.html">How It Works</a></li>
+              <li><a href="accounts.html">CreativMoney</a></li>
+              <li><a href="charges-fees.html">Fees/Charges</a></li>
+              <li><a href="faq.html">FAQ</a></li>
             </ul>
           </li>
-          <li><a href="#">Buy</a></li>
-          <li><a href="#">Sell</a></li>
+          <li><a href="but.html">Buy</a></li>
+          <li><a href="sell.html">Sell</a></li>
           <li><a href="#">Contact</a></li>
-          <li><a href="#" class="login">Login</a></li>
-          <li><a href="#" class="getStarted">Get Started</a></li>
+          <li class="sm-down-hide"><a href="#" class="login">Login</a></li>
+          <li class="sm-down-hide"><a href="#" class="getStarted">Get Started</a></li>
+        </ul>
+      </div>
+      <div class="mobileLogin">
+        <ul>
+            <li><a href="login.html" class="login">Login</a></li>
+            <li><a href="register.html" class="getStarted">Get Started</a></li>
         </ul>
       </div>
       <div class="clearfix"></div>
@@ -128,7 +141,7 @@
                 </div>
               </div>
               <div class="col-lg-5">
-                  <img src="assets/images/img4.png">
+                  <img class="img-fluid" src="assets/images/img4.png">
               </div>
             </div>
           </div>
@@ -144,36 +157,36 @@
               </div>
               <div class="row text-center teamMembers">
                 <div class="col-lg-4">
-                  <img src="assets/images/rimsky.png" class="rounded-circle">
+                  <img class="img-fluid" src="assets/images/rimsky.png" class="rounded-circle">
                   <h4 class="nowBold">Cho Rimsky</h4>
                   <p class="">Software engineer,<br>Blockchain and Crypto expert.</p>
                 </div>
                 <div class="col-lg-4">
-                  <img src="http://via.placeholder.com/200x200/" class="rounded-circle">
+                  <img class="img-fluid" src="http://via.placeholder.com/200x200/" class="rounded-circle">
                   <h4 class="nowBold">Shwazie Marcel</h4>
                   <p class="">Account analyst & <br>
                     Business manager</p>
                 </div>
                 <div class="col-lg-4">
-                  <img src="assets/images/jay.png" class="rounded-circle">
+                  <img class="img-fluid" src="assets/images/jay.png" class="rounded-circle">
                   <h4 class="nowBold">Javnyuy Joybert</h4>
                   <p class="">Innovation,<br> 
                       Market analyst & Consultant
                   </p>
                 </div>
                 <div class="col-lg-4">
-                    <img src="http://via.placeholder.com/200x200/" class="rounded-circle">
+                    <img class="img-fluid" src="http://via.placeholder.com/200x200/" class="rounded-circle">
                     <h4 class="nowBold">Chygoz Obike</h4>
                     <p class="">UI/UX Developer &<br> 
                     Graphic designer</p>
                   </div>
                   <div class="col-lg-4">
-                    <img src="http://via.placeholder.com/200x200/" class="rounded-circle">
+                    <img class="img-fluid" src="http://via.placeholder.com/200x200/" class="rounded-circle">
                     <h4 class="nowBold">Che Nicole Nanga</h4>
                     <p class="">Business Administrator</p>
                   </div>
                   <div class="col-lg-4">
-                    <img src="http://via.placeholder.com/200x200/" class="rounded-circle">
+                    <img class="img-fluid" src="http://via.placeholder.com/200x200/" class="rounded-circle">
                     <h4 class="nowBold">Mohamed</h4>
                     <p class="">Lead Developer</p>
                   </div>
@@ -190,7 +203,7 @@
           <div class="row">
             <div class="col-lg-3">
               <h4>Quick Links</h4>
-              <ul>
+              <ul class="toggleFooter">
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Cryptocurrency Updates</a></li>
                 <li><a href="#">Career</a></li>
@@ -199,30 +212,30 @@
             </div>
             <div class="col-lg-3">
               <h4>Contact Us</h4>
-              <ul>
+              <ul class="toggleFooter">
                 <li>txn@creativmoney.com</li>
                 <li>Cryptocurrency Updates</li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col-lg-2 col-12">
               <h4>Help</h4>
-              <ul>
+              <ul class="toggleFooter">
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Support</a></li>
                 <li><a href="#">Guide</a></li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col-lg-2 col-12">
               <h4>Learn more</h4>
-              <ul>
+              <ul class="toggleFooter">
                 <li><a href="#">Terms & Conditions</a></li>
                 <li><a href="#">Privacy policy</a></li>
                 <li><a href="#">Accounts</a></li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col-lg-2 col-12">
               <h4>Follow us </h4>
-              <ul class="socialIcons">
+              <ul class="toggleFooter  socialIcons">
                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
@@ -234,15 +247,15 @@
       <div class="footerBottom">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col-lg-6">
               <p class="marginZero">© 2019 All rights reserved. CreativMoney Africa</p>
             </div>
-            <div class="col secureIcons">
+            <div class="col-lg-6 secureIcons">
               <ul class="marginZero">
                 <li>SSL SECURED</li>
-                <li><img src="assets/images/lock-icon.png" class="lockIcon"></li>
-                <li><img src="assets/images/paypal-2.png"></li>
-                <li><img src="assets/images/paypal-1.png"></li>
+                <li><img class="img-fluid" src="assets/images/lock-icon.png" class="lockIcon"></li>
+                <li><img class="img-fluid" src="assets/images/paypal-2.png"></li>
+                <li><img class="img-fluid" src="assets/images/paypal-1.png"></li>
               </ul>
             </div>
           </div>
