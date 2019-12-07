@@ -981,7 +981,7 @@ p { font-size: 14px !important; }
 
 .topMenu ul li { display: block; width: 100%;}
 
-.topMenu ul li a { co5r: #556179; padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.05);}
+.topMenu ul li a { color: #556179; padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.05);}
 
 .topMenu ul li:first-child a { border-top: 1px solid rgba(0,0,0,0.05);}
 

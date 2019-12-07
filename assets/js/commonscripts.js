@@ -2,7 +2,7 @@
 
 $("footer h4").click(function(){
 	 
-  if( $(window).width()< 991){
+  if( $(window).width()< 577){
     $(this).parent().children(".toggleFooter").slideToggle();
   
   
@@ -23,5 +23,11 @@ $('#toggleMenu').on('click',function(e){
 $('#navClose').on('click',function(){
   $('.topMenu').removeClass('open-menu');
 });
+
+if( $(window).width()< 577){
+  if ($(window).scroll(function() {
+    $('.topMenu').removeClass('open-menu');
+  }));
+}
 
 
