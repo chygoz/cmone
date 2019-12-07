@@ -372,6 +372,8 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
 
 .loginWarapper .custom-form-control { height: 55px; border: 1px solid #707070;}
 
+.loginWarapper input[type='email'] { padding-right: 95px;}
+
 .loginWarapper p.text-right { margin-right: -10rem;}
 
 .loginWarapper form { padding-top:30px ;}
@@ -961,7 +963,7 @@ p { font-size: 14px !important; }
 
 .howItWorks { padding-bottom: 0;}
 
-.titleHeading h2, .paymentSolutionsInfo .item h2, .paymentSolutionsInfo .item h5 { font-size: 20px;}
+.titleHeading h2, .paymentSolutionsInfo .item h2, .paymentSolutionsInfo .item h5,.bannerWrapper h1 { font-size: 20px;}
 
 .mobileNavIcon button { width: 30px; position: absolute; left: 15px; top: calc(50% - 10px); background: none; border: 0;}
 
@@ -1087,6 +1089,62 @@ footer h4.active:before { content: '\f107 ';}
 
 .businessPartnersWrapper p{ font-size: 14px !important;}
 
+.buySellWrapperContent tr td { font-size: 12px; font-family: 'nowMedium';}
+
+.buySellWrapperContent tr td, .buySellWrapperContent .table thead th { padding: 1rem;}
+
+.bannerWrapper h1 { text-align: center;}
+
+.buySellWrapper .innerBannerWrapper p { width: 100%;}
+
+section.buySellWrapperContent .no-more-tables { margin-top: 0;}
+
+.mt-5 { margin-top: 2rem !important;}
+
+.btn.btnBlue{ padding: 8px 15px; font-size: 14px;}
+
+.infoGraph { width: 33.3%; float: left; margin-top: 1.5rem;}
+
+.infoGraph h3 { font-size: 22px;}
+
+.infoGraph p{ margin-bottom: 0;}
+
+.visionMissionRow .btn-link, .faqSection .btn-link, .teamMembers h4{ font-size: 18px;}
+
+.visionMissionRow .card i, .faqSection .card i{ font-size: 30px; margin-top: 0;}
+
+.visionMissionRow .card-body{ padding:0 1rem; font-size: 14px;}
+
+.accountItem  { margin-bottom: 1.5rem;}
+
+.faqWrapper .searchFilter { width: 100%;}
+
+.faqSection .card-body { font-size: 14px;}
+
+.faqSection h4 { margin-top: 2.5rem; font-size: 20px;}
+
+.loginWarapper .loginLeft, .loginWarapper .loginLeft.signupLeft { height: auto; background-size:cover ; position: fixed; width: 100%; top: 0;}
+
+.loginWarapper .loginLeft img { padding: 1rem 0; width: 175px; margin: 0px auto; display: block;}
+
+.loginRight { width: 100%; padding-bottom: 2rem; margin-top: 110px;}
+
+.loginWarapper p.text-right{ margin-right: 0; margin-top: 1rem;}
+
+.loginRight .closeIcon { top: 5px; right: 10px;}
+
+.loginRight .closeIcon img { width: 22px; padding: 5px; background: #fff; border-radius: 100%;}
+
+.customRadioBtn:before { left: 0;}
+
+.customRadioBtn { left: 10px;}
+
+.registerCountryCodeSelect { margin-bottom: 2rem;}
+
+
+
+
+.chargesFeesWrapper .faqSection { margin-top: 0;}
 
 .no-more-tables table, 
 .no-more-tables thead, 
@@ -1125,7 +1183,7 @@ text-align:left;padding: 4px 10px;padding-left:50% !important;  word-break: brea
 position: absolute;
 /* Top/left values mimic padding */
 top: 6px;
-left: 6px;
+left: 1rem;
 padding:10px 15px 10px 0px;
 
 text-align:left;
@@ -1138,3 +1196,8 @@ Label the data
 .no-more-tables td:before { content: attr(data-title); }
 
  }
+
+
+
+
+ 
