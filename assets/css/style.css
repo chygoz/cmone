@@ -945,7 +945,140 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
 
  .chargesFeesWrapper .faqSection .card i { color: #fff;}
 
+ .mobileNavIcon, .topMenu span.closeIcon { display: none;}
+
  @media (max-width: 576px) {
+
+header { padding: 14px 15px; z-index: 999; height: 70px; position: fixed; top: 0; width: 100%;}
+
+main { margin-top: 70px; border-top: 2px solid #007bff;}
+
+p { font-size: 14px !important; }
+
+.mobileNavIcon, .topMenu span.closeIcon { display: block;}
+
+.sm-down-hide { display: none !important;}
+
+.howItWorks { padding-bottom: 0;}
+
+.titleHeading h2, .paymentSolutionsInfo .item h2, .paymentSolutionsInfo .item h5 { font-size: 20px;}
+
+.mobileNavIcon button { width: 30px; position: absolute; left: 15px; top: calc(50% - 10px); background: none; border: 0;}
+
+.mobileNavIcon span { width: 30px; height: 2px; display: block; margin-bottom: 6px; background: #fff;}
+
+.logo { margin-left: 60px;}
+
+.logo img { margin: 0 auto; width: 125px; display: block;}
+
+.topMenu { transition: all 0.6s; position: fixed; left: -1px; top: 0; width: 75%; z-index: 999999; height: 100%; background: #fff; transform: translateX(-100%);}
+
+.topMenu ul { margin-top: 25px;}
+
+.topMenu ul.dropdown-menu { margin-top: 0; margin-bottom: 20px;}
+
+.topMenu ul li { display: block; width: 100%;}
+
+.topMenu ul li a { color: #556179; padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.05);}
+
+.topMenu ul li:first-child a { border-top: 1px solid rgba(0,0,0,0.05);}
+
+.topMenu ul ul.dropdown-menu li a { padding: 1rem 2.5rem; color: var(--main-text-color);}
+
+.topMenu.open-menu { transform: translateX(0) scale(1, 1);}
+
+.topMenu span.closeIcon { width: 20px; height: 20px; margin-right: 15px; margin-top: -15px; float: right;}
+
+.topMenu span.closeIcon img { width: 15px;}
+
+.topMenu .dropdownMenu i { float: right;}
+
+.topMenu ul li.dropdownMenu .dropdown-menu { width: 100%; border-radius: 0; position: relative !important; left: 0px !important; transform: translate(0) !important}
+
+.topMenu ul li.dropdownMenu:hover .dropdown-menu { display: none;}
+
+.topMenu ul li.dropdownMenu:hover .dropdown-menu.show { display: block; }
+
+.topMenu ul li.m-login { position: fixed; transform: translateX(100%);}
+
+.bannerWrapper .bannerLeft p { padding-right: 0; text-align: center; font-size: 14px;}
+
+section { padding: 1.5rem 0;}
+
+.bannerWrapper { height: auto;}
+
+.bannerLeft h2 { font-size: 20px; text-align: center;}
+
+.bitIcons { text-align: center;}
+
+.bitIcons img { width: 105px; margin-right: 5px;}
+
+.converterForm { padding: 2rem 4rem 0 0;}
+
+.homeBannerWrapper { min-height: 1px;}
+
+.converterForm .tab-content { padding-bottom: 0;}
+
+.homeBannerWrapper:before, .homeBannerWrapper:after {display: none;}
+
+.toggleFooter { display: none;}
+
+.testimonialsWrapper .owl-carousel .owl-stage-outer { padding-top: 2rem;}
+
+.testimonialsWrapper .owl-item p { display: block;}
+
+.testimonialsWrapper .owl-next { right: -15px; font-size: 3rem;}
+
+.testimonialsWrapper .owl-carousel.owl-drag .owl-item { padding: 0 2rem;}
+
+.testimonialsWrapper .owl-prev { left: -15px; font-size: 3rem;}
+
+.howItWorks .quickLinks li a { font-size: 12px; padding: 10px 15px;}
+
+.howItWorks p { margin-top: 10px;}
+
+.secureTransactionInfo { position: relative; top: 0; text-align: center;}
+
+.paymentsSolutionsWrapper .owl-carousel .owl-item img { margin-top: 0;}
+
+.bgImage:before{ background-position:center center ;}
+
+.paymentsSolutionsWrapper .owl-stage-outer { padding-bottom: 0;}
+
+.paymentsSolutionsWrapper .owl-theme .owl-nav.disabled+.owl-dots{ text-align: center;}
+
+.agencyContent { padding:1.5rem 1.5rem 8rem;}
+
+.agencyContentTopRow img { margin-top: -25%;}
+
+.map .bgMap { height: 250px;}
+
+.agencyContent h5 { font-size: 18px;}
+
+.businessPartners .col { width: 33.3%; flex-grow: unset; flex-basis: inherit; margin-bottom: 10px;}
+
+.businessPartners .col img { width: 75%; margin: 0 auto; display: block;}
+
+.footerTop { padding: 2rem 0;}
+
+footer h4 { padding: 1rem; border: 1px solid rgba(255,255,255,0.4); font-size: 16px; margin-bottom: 1rem;}
+
+footer h4:before { content: '\f105 '; transition: all 0.5s; font-family: 'FontAwesome'; left: inherit; right: 30px; top: 20%; font-size: 1.5rem; width: 0; ;}
+
+footer h4.active:before { content: '\f107 ';}
+
+.footerBottom { text-align: center;}
+
+.footerBottom p, .footerBottom ul li { font-size: 13px !important; margin-bottom: 5px;}
+
+.secureIcons img { width: 35px; }
+
+.footerBottom ul { float: inherit;}
+
+.businessPartnersWrapper { margin: -2rem 0;}
+
+.businessPartnersWrapper p{ font-size: 14px !important;}
+
 
 .no-more-tables table, 
 .no-more-tables thead, 

@@ -1,24 +1,27 @@
 
-$('#testimonials').owlCarousel({
-    center: true,
-    loop: true,
-    margin: 10,
-    nav: true,
-    dots: false,
-    navText: [
-			'<span aria-label="' + 'Previous' + '"><i class="fa fa-angle-left" aria-hidden="true"></i></span>',
-			'<span aria-label="' + 'Next' + '"><i class="fa fa-angle-right" aria-hidden="true"></i></span>'
-		],
-    responsive: {
-      600: {
-        items: 3
-      }
+
+$("footer h4").click(function(){
+	 
+  if( $(window).width()< 991){
+    $(this).parent().children(".toggleFooter").slideToggle();
+  
+  
+    if ( $(this).hasClass('active') ) {
+      $(this).removeClass('active');
+    } else {
+      $(this).addClass('active');
     }
+  } 
+  
   });
 
-  $('#paymentSolutions').owlCarousel({
-    margin: 10,
-    nav: false,
-    dots: true,
-    items: 1
-  });
+$('#toggleMenu').on('click',function(e){
+  $('.topMenu').toggleClass('open-menu');
+  //return false;
+});
+
+$('#navClose').on('click',function(){
+  $('.topMenu').removeClass('open-menu');
+});
+
+
