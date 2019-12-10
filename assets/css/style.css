@@ -134,7 +134,7 @@ header { padding: 20px 40px; background: var(--main-bg-color);}
 
 .topMenu ul ul.dropdown-menu li {width: 100%;}
 
-.topMenu ul ul.dropdown-menu li a { padding: 10px; display: block; color: var(--text-color-black)}
+.topMenu ul ul.dropdown-menu li a { padding: 10px; display: block; color: #566079}
 
 .topMenu ul li.dropdownMenu i { padding-left: 10px;}
 
@@ -142,7 +142,7 @@ header { padding: 20px 40px; background: var(--main-bg-color);}
 
 .topMenu ul li.dropdownMenu:hover .dropdown-menu{ display: block;  }
 
-.topMenu ul li ul li a:hover { background:#eee;}
+.topMenu ul li ul li a:hover { background:#EBECF0;}
 
 
 /* banner section */
@@ -1111,7 +1111,7 @@ section.buySellWrapperContent .no-more-tables { margin-top: 0;}
 
 .visionMissionRow .btn-link, .faqSection .btn-link, .teamMembers h4{ font-size: 18px;}
 
-.visionMissionRow .card i, .faqSection .card i{ font-size: 30px; margin-top: 0;}
+.visionMissionRow .card i, .faqSection .card i{ font-size: 26px; margin-top: 0;}
 
 .visionMissionRow .card-body{ padding:0 1rem; font-size: 14px;}
 
@@ -1165,6 +1165,8 @@ left: -9999px;
 
 .no-more-tables table{ border:0px;} 
 
+.no-more-tables table table { max-height: 300px; overflow: auto;}
+
 .no-more-tables tr { border: 1px solid #ccc; margin-bottom:7px; clear:both;}
 
 .no-more-tables td { 
@@ -1193,9 +1195,27 @@ text-align:left;
 /*
 Label the data
 */
-.no-more-tables td:before { content: attr(data-title); }
+.no-more-tables td:before { content: attr(data-title); color: #333; } 
 
- }
+.chargesFeesWrapper tr.tableMainRow td{ padding-left: 0px !important;}
+
+.chargesFeesWrapper tr.tableMainRow td tr td{padding-left: 40% !important; padding: 0.5rem 0.5rem 0.5rem 0; font-size: 12px;}
+
+.chargesFeesWrapper tr.tableMainRow td tr td:first-child { width: auto !important; }
+
+.chargesFeesWrapper .table-striped tbody tr td tr td{ font-size: 11px;}
+
+.chargesCards .col-lg-6 { margin-bottom: 1rem;}
+
+.chargesFeesWrapper { margin-top: -1.5rem;}
+
+.chargesFeesWrapper .no-more-tables td:before { left: 0.5rem; top: -1px;}
+
+.chargesFeesWrapper .card-body{ padding: 0;}
+
+.chargesFeesWrapper .card-header{ padding: 5px;}
+
+}
 
 
 
