@@ -189,6 +189,8 @@ header { padding: 20px 40px; background: var(--main-bg-color);}
 
 .converterForm .tab-content p { text-align: right; color: #fff;}
 
+.converterForm .dropdown-item { padding: 0.5rem;}
+
 .bannerRight .verticalStrip { background: #eee; top: calc(50% - 65px); right: 35px; left: inherit; height: 90px;}
 
 .bannerRight .verticalStrip:before { background: var(--btn-bg-light-blue);}
@@ -201,7 +203,7 @@ section.bgLightBlue { background: #eff5ff;}
 
 section.bgLightGray { background: #eff3f8;}
 
-.countryCodeSelect { width: 75px; position: absolute; top: 0; height: 100%; right: 8px;}
+.countryCodeSelect { width: auto; position: absolute; top: 0; height: 100%; right: 8px;}
 
 /* Testimonials */
 
@@ -605,7 +607,7 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
    padding-right: inherit;
  }
  .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
-   overflow: hidden; color: #fff;
+   overflow: hidden; color: #fff; padding-right: 5px;
  }
  .bootstrap-select .dropdown-toggle .filter-expand {
    width: 0 !important;
@@ -631,7 +633,7 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
    -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
            box-sizing: border-box;
-    margin: 0; padding: 0;
+    margin: 0; padding: 0; border: 0; border-radius: 0;
  }
  .bootstrap-select .dropdown-menu > .inner:focus {
    outline: none !important;
@@ -647,7 +649,7 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
            box-shadow: none;
  }
  .bootstrap-select .dropdown-menu li {
-   position: relative;
+   position: relative; padding: 2px;
  }
  .bootstrap-select .dropdown-menu li.active small {
    color: rgba(255, 255, 255, 0.5) !important;
@@ -663,7 +665,7 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
            user-select: none;
  }
 
- .bootstrap-select .dropdown-item.active, .dropdown-item:active { background-color: var(--btn-bg-light-blue); }
+ .bootstrap-select .dropdown-item.active, .dropdown-item:active { background-color: var(--btn-bg-blue); }
  .bootstrap-select .dropdown-menu li a.opt {
    position: relative;
    padding-left: 2.25em;
