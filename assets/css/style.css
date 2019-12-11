@@ -636,7 +636,7 @@ footer ul.socialIcons li { display: inline-block; font-size: 30px; margin-right:
     margin: 0; padding: 0;
  }
 
- .converterForm .bootstrap-select .dropdown-menu {  border: 0; border-radius: 0; max-height: 300px;}
+ .converterForm .bootstrap-select .dropdown-menu {  border: 0; max-height: 300px; left: -50% !important;}
  .bootstrap-select .dropdown-menu > .inner:focus {
    outline: none !important;
  }
